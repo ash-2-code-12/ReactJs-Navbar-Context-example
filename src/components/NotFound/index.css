@@ -1,0 +1,25 @@
+.not-found {
+  height: calc(100vh - 68px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  padding: 20px;
+}
+.not-found-light {
+  background-color: #ffffff;
+}
+.not-found-dark {
+  background-color: #000000;
+}
+.not-found-img {
+  width: 40%;
+  max-width: 360px;
+  margin: 0;
+}
+.not-found p,
+h1 {
+  margin: 0;
+  text-align: center;
+}

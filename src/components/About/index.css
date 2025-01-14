@@ -1,0 +1,19 @@
+.about {
+  height: calc(100vh - 68px);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+}
+.about-light {
+  background-color: #ffffff;
+}
+.about-dark {
+  background-color: #000000;
+}
+.about-img {
+  width: 40%;
+  max-width: 360px;
+  margin: 0;
+}
